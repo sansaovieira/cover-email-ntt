@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    --cor-das-letras: #000;
+    --branco-principal: #fff;
+}
+
+.cabecalho{
+    background-color: rgb(229, 229, 229);
+    margin-bottom: 5%;
+}
+
+.cabecalho img {
+    width: 100%;
+}
+
+.font {
+    font-size: 2em;
+    margin-left: 5%;
+}
+
+.seccao-principal {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.seccao-principal img {
+    width: 300px;
+    margin: 0 35px;
+}
+
+.primeira-seccao h2, p, a {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0 35px;
+    padding: 10px;
+
+}
+
+.primeira-seccao h2 {
+    font-size: 1em;
+    color: rgb(79, 177, 242);
+}
+
+.primeira-seccao a {
+    color: blue;
+}
+
+footer {
+    background-color: rgb(236, 236, 236);
+    margin-top: 20px;
+    padding: 30px;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(197, 192, 192);
+}
